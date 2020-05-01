@@ -1,6 +1,9 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js");
+@import url("https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js");
+@import url("https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css");
+@import url("https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css");
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1252,7 +1255,7 @@ input, select, textarea {
 
 		ul.grid-icons.connected > li:after {
 			content: '';
-			display: block;
+			display: none;
 			position: absolute;
 			width: 2px;
 			height: 1.5rem;
@@ -3498,7 +3501,7 @@ input, select, textarea {
 		-ms-flex-shrink: 1;
 		flex-shrink: 1;
 		height: 100%;
-		padding: 5rem;
+		padding: 10px;
 	}
 
 		@media screen and (orientation: portrait) {
@@ -3726,12 +3729,8 @@ input, select, textarea {
 		transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 	  }
 	  
-	  .wisteria {
-		color: #8e44ad;
-	  }
-	  
 	  .midnight {
-		color: #2c3e50;
+		color: #2b2b2b;
 	  }
 	  
 	  /* Walking people */
@@ -3789,7 +3788,7 @@ input, select, textarea {
 		  transform: translateY(0px);
 		}
 		to {
-		  transform: translateY(-2000px);
+		  transform: translateY(-1500px);
 		}
 	  }
 	
@@ -3823,3 +3822,18 @@ input, select, textarea {
   }
 
   /* ACCORDIAN */ 
+
+
+  #wrapper > section:nth-child(1) > div.content.color1.span-2-25 {
+	border-radius: 80px 80px 0px 80px;
+  }
+
+  #wrapper > section:nth-child(2) > div{
+	  border-radius: 80px 80px 80px 0;
+  }
+  
+  /* REMOVE WORK BACKGROUND */
+
+  #wrapper > section:nth-child(3) > div{
+	  background: none;
+  }
