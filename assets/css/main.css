@@ -3792,4 +3792,34 @@ input, select, textarea {
 		  transform: translateY(-2000px);
 		}
 	  }
-	  
+	
+/* ACCORDIAN */ 
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	background-color: rgba(238, 238, 238, 0.116);
+	color: #444;
+	cursor: pointer;
+	padding: 0 0 0 10px;
+	margin: 2px;
+	width: 100%;
+	text-align: center;
+	border: none;
+	outline: none;
+	transition: 0.5s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+	background-color: rgba(204, 204, 204, 0.010);
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .jesus {
+	padding: 0 0 0 18px;
+	background-color: none;
+	display: none;
+	overflow: hidden;
+  }
+
+  /* ACCORDIAN */ 
