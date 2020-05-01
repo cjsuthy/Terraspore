@@ -3837,17 +3837,43 @@ input, select, textarea {
 
   /* REMOVE WORK BACKGROUND */
 
-  #wrapper > section:nth-child(3) > div{
+  #wrapper > section:nth-child(4) > div{
 	  background: none;
   }
 
-
   /* Curve Project Border */
 
-  #wrapper > section:nth-child(3) > div.gallery > div.group.span-4-5 > a:nth-child(1){
+  #wrapper > section:nth-child(4) > div.gallery > div.group.span-4-5 > a:nth-child(1){
 	  border-radius: 80px 0 0 0;
   }
 
-  #wrapper > section:nth-child(3) > div.gallery > div.group.span-4-5 > a:nth-child(4){
+  #wrapper > section:nth-child(4) > div.gallery > div.group.span-4-5 > a:nth-child(4){
 	border-radius: 0 0 80px 0;
   }
+
+
+
+  /* Pricing Table */ 
+
+  .pricetable{
+	border: 1px solid #eee;
+	height: 100%;
+	width: 100%;
+
+  }
+
+  .pricetable:hover {
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.8)
+
+  }
+
+	.priceinner{
+		text-align: center;
+		margin: 20px;
+		
+	}
+
+.bigprice{
+	margin: 0px;
+	
+}

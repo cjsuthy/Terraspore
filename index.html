@@ -108,6 +108,64 @@
 
 		</section>
 
+		<!-- Pricing -->
+		<section class="panel banner left">
+			<div class="content color1 span-2">
+				<div class="pricetable">
+					<div class="priceinner">
+						<h6>
+							On-Demand Design Services
+						</h6>
+						
+						<h3>$500 Per Week</h3>
+						<h6 class="bigprice">or $100 Per Day</h6>
+						<br>
+						<ul class="alt">
+							<li>24/7 Support</li>
+							<li>3 Day-Delivery</li>
+							<li>Unlimited Revisions</li>
+							<li>Any Service Available</li>
+						</ul>
+
+						<div id="paypal-button-container"></div>
+						<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"
+							data-sdk-integration-source="button-factory"></script>
+						<script>
+							paypal.Buttons({
+								style: {
+									shape: 'rect',
+									color: 'black',
+									layout: 'vertical',
+									label: 'paypal',
+									size: 'responsive',
+									
+
+								},
+								createOrder: function (data, actions) {
+									return actions.order.create({
+										purchase_units: [{
+											amount: {
+												value: '500'
+											}
+										}]
+									});
+								},
+								onApprove: function (data, actions) {
+									return actions.order.capture().then(function (details) {
+										alert('Transaction completed by ' + details.payer.name.given_name + '!');
+									});
+								}
+							}).render('#paypal-button-container');
+						</script>
+
+
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
 		<!-- Projects -->
 
 		<section class="panel banner left">
@@ -167,6 +225,18 @@
 				</div>
 
 				<button class="accordion">Statistics</button>
+				<div class="jesus">
+
+					<ul>
+						<li>Team: 10+ <h6>Join The Team [ 1 Available ]</h6>
+						</li>
+						<li>Projects Completed: 100+</li>
+						<li>Design Awards: 5+</li>
+
+					</ul>
+				</div>
+
+				<button class="accordion">Clientele</button>
 				<div class="jesus">
 
 					<ul>
