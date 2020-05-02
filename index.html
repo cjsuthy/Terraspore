@@ -43,8 +43,8 @@
 				</div>
 				<br>
 
-				<h1 class="major">Welcome to Terraspore<span>
-
+				<h1 class="major">Terraspore<span>
+					<br>
 						<h6>
 							<blockquote>verb [te-ra-sp-ore] "To Create Life"</blockquote>
 						</h6>
@@ -70,7 +70,7 @@
 		<section class="panel banner left">
 
 			<div class="content color1 span-2-5">
-				<h2 class="major">Services + Pricing</h2>
+				<h2 class="major">Services</h2>
 
 				<button class="accordion">Industrial Design</button>
 				<div class="jesus">
@@ -110,58 +110,35 @@
 
 		<!-- Pricing -->
 		<section class="panel banner left">
-			<div class="content color1 span-2">
+			<div class="content color1 span-2-25">
 				<div class="pricetable">
 					<div class="priceinner">
 						<h6>
-							On-Demand Design Services
+							Special Offer
 						</h6>
-						
-						<h3>$500 Per Week</h3>
-						<h6 class="bigprice">or $100 Per Day</h6>
+
 						<br>
-						<ul class="alt">
-							<li>24/7 Support</li>
-							<li>3 Day-Delivery</li>
-							<li>Unlimited Revisions</li>
-							<li>Any Service Available</li>
-						</ul>
 
-						<div id="paypal-button-container"></div>
-						<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"
-							data-sdk-integration-source="button-factory"></script>
-						<script>
-							paypal.Buttons({
-								style: {
-									shape: 'rect',
-									color: 'black',
-									layout: 'vertical',
-									label: 'paypal',
-									size: 'responsive',
-									
+						<h3>$500 Per Week</h3>
+						<h6 class="bigprice">Bespoke Design Services</h6>
 
-								},
-								createOrder: function (data, actions) {
-									return actions.order.create({
-										purchase_units: [{
-											amount: {
-												value: '500'
-											}
-										}]
-									});
-								},
-								onApprove: function (data, actions) {
-									return actions.order.capture().then(function (details) {
-										alert('Transaction completed by ' + details.payer.name.given_name + '!');
-									});
-								}
-							}).render('#paypal-button-container');
-						</script>
+						<br>
+
+					
+							<ul class="alt">
+								<li>24/7 Support</li>
+								<li>Fast Asset Delivery</li>
+								<li>Unlimited Revisions</li>
+								<li>All Services Available</li>
+
+							</ul>
+
+						
+
+						<div><button onclick="location.href='mailto:terrasporenz@gmail.com';">Get In Contact</button></div>
 
 
 					</div>
-
-
 				</div>
 			</div>
 		</section>
@@ -206,47 +183,27 @@
 		<!-- About Us -->
 		<section class="panel banner left">
 
-			<div class="content color1 span-3" style="background: none !important" ;>
+			<div class="content color1 span-2" style="background: none !important" ;>
 				<h2 class="major">About Us</h2>
-				<p>Kia-Ora! Terraspore is an Industrial Design R&D studio specialised in providing rapid design,
-					prototyping and development.</p>
+				<p>We specialise in providing a full-stack design process for our clients across multiple facets,
+					through on-demand design services.</p>
+					<br>
+					<h2 class="major">Awards</h2>
+				<p>We specialise in providing a full-stack design process for our clients across multiple facets,
+					through on-demand design services.</p>
+				
+			</div>
+
+			<div class="content color1 span-2" style="background: none !important" ;>
+				<h2 class="major">Clientele</h2>
 				<br>
-				<button class="accordion">What Makes Us Special?</button>
-				<div class="jesus">
-
-					<ul>
-						<li>
-							<p>We work on small one-off projects. In essence: If anyone has an idea they need made, we
-								will do it!</p>
-						</li>
-
-					</ul>
-
+				<div>
+					<img href="images/Clients.png" data-position="top">
+					<img src="images/Clients.png" alt="clients" /></a>
 				</div>
-
-				<button class="accordion">Statistics</button>
-				<div class="jesus">
-
-					<ul>
-						<li>Team: 10+ <h6>Join The Team [ 1 Available ]</h6>
-						</li>
-						<li>Projects Completed: 100+</li>
-						<li>Design Awards: 5+</li>
-
-					</ul>
-				</div>
-
-				<button class="accordion">Clientele</button>
-				<div class="jesus">
-
-					<ul>
-						<li>Team: 10+ <h6>Join The Team [ 1 Available ]</h6>
-						</li>
-						<li>Projects Completed: 100+</li>
-						<li>Design Awards: 5+</li>
-
-					</ul>
-				</div>
+				
+					
+				
 			</div>
 
 		</section>
