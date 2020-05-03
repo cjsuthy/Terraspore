@@ -3747,8 +3747,6 @@ input, select, textarea {
 
 	  /*	Star Background		*/
 
-	 
-	  
 	  #stars {
 		width: 1px;
 		height: 1px;
@@ -3821,8 +3819,7 @@ input, select, textarea {
 	overflow: hidden;
   }
 
-  /* ACCORDIAN */ 
-
+  /* Remove Border Radius at Mobile */ 
   @media (min-width: 800px){
 
 	#wrapper > section:nth-child(1) > div.content.color1.span-2-25 {
@@ -3832,9 +3829,6 @@ input, select, textarea {
 		  border-radius: 80px 0 0 80px;}
 	}
 
- 
-
-
   /* REMOVE WORK BACKGROUND */
 
   #wrapper > section:nth-child(4) > div{
@@ -3843,15 +3837,12 @@ input, select, textarea {
 
   /* Curve Project Border */
 
-  #wrapper > section:nth-child(4) > div.gallery > div.group.span-4-5 > a:nth-child(1){
+  #wrapper > section:nth-child(3) > div.gallery > div.group.span-4-5 > a:nth-child(1){
 	  border-radius: 80px 0 0 0;
   }
-
-  #wrapper > section:nth-child(4) > div.gallery > div.group.span-4-5 > a:nth-child(4){
+  #wrapper > section:nth-child(3) > div.gallery > div.group.span-4-5 > a:nth-child(4){
 	border-radius: 0 0 80px 0;
   }
-
-
 
   /* Pricing Table */ 
 
@@ -3859,21 +3850,17 @@ input, select, textarea {
 	border: 1px solid #ffe4b4;
 	height: 100%;
 	width: 100%;
-
   }
 
   .pricetable:hover {
 	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.8)
-
   }
-
-	.priceinner{
+	
+  .priceinner{
 		text-align: center;
-		margin: 20px;
-		
+		margin: 20px;	
 	}
-
-.bigprice{
+	
+	.bigprice{
 	margin: 0px;
-
 }
