@@ -3859,11 +3859,11 @@ input, select, textarea {
 /* REMOVE PADDING */
 
 #wrapper > section:nth-child(4) > div{
-	padding: 10px;
+	padding: 30px;
 }
 
 #wrapper > section:nth-child(5) > div{
-	padding: 10px;
+	padding: 30px;
 }
 
 /* CONTACT BORDER RADIUS */
