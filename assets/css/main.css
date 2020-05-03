@@ -3858,7 +3858,7 @@ input, select, textarea {
 
 /* REMOVE PADDING */
 
-#wrapper > section:nth-child(4) > div{
+#wrapper > section:nth-child(6) > div{
 	padding: 30px;
 }
 
