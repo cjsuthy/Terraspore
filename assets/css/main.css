@@ -1,5 +1,3 @@
-@import "fontawesome-all.min.css";
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i&display=swap";
 @import "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js";
 @import "https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js";
 @import "https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css";
@@ -16,10 +14,6 @@ body{-webkit-text-size-adjust:none}
 100%{-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
 }
 @-webkit-keyframes load-spinner {
-0%{-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}
-100%{-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
-}
-@-ms-keyframes load-spinner {
 0%{-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}
 100%{-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
 }
@@ -112,10 +106,6 @@ button:disabled{pointer-events:none;cursor:default;opacity:.5}
 100%{-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
 }
 @-webkit-keyframes gallery-modal-spinner {
-0%{-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}
-100%{-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
-}
-@-ms-keyframes gallery-modal-spinner {
 0%{-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}
 100%{-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}
 }
