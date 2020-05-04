@@ -251,7 +251,7 @@ input, select, textarea {
 		}
 
 		body {
-			height: 80%;
+			height: auto;
 			overflow-x: hidden;
 			overflow-y: auto;
 		}
