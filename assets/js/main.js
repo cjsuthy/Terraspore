@@ -102,7 +102,7 @@
 	// Disable on <=small.
 	if(breakpoints.active("<=small"))return;
 	// Prevent default.
-	event.preventDefault();event.stopPropagation();
+	event.stopPropagation();
 	// Stop link scroll.
 	$bodyHtml.stop();
 	// Calculate delta, direction.
