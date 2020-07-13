@@ -1,0 +1,62 @@
+body {
+    background: #1f1f1f;
+    color: #bbb;
+  }
+
+  .navbar {
+    padding: 20px;
+   }
+   
+   .navbar-brand {
+       color: white;
+   }
+   
+.card {
+    background: #242424;
+   color: #bbb;
+   border: none;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card,h-100 {
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.list-group-item {
+background: none;
+border: 1px #3a3a3a solid;
+}
+
+a {
+    color: #686868;
+}
+
+.signature {
+   max-width: 200px;
+}
+
+iframe{
+    overflow: auto;
+}
+
+.card-img-top{
+    padding: 10px;
+    opacity: 0.2;
+    border-radius: 20px;
+}
+
+.card-img-top:hover{
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 1;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+#conpin{
+    margin-right: 10px;
+}

@@ -1,3 +1,0 @@
-Greetings! 
-
-Welcome to Terraspore.. 
