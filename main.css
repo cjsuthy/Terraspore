@@ -75,3 +75,54 @@ iframe{
     50%  { transform: translate(0, 30px); } 
     100%   { transform: translate(0, -0px); }     
 } 
+
+/* Strong Underline */ 
+
+strong {
+    position: relative;
+  }
+  strong::after {
+    content: "";
+    position: absolute;
+    bottom: -0.125rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    height: 0.75rem;
+    z-index: -1;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  p > strong {
+    font-weight: 400;
+  }
+  p > strong::after {
+    bottom: -0.2rem;
+    height: 0.5rem;
+    left: -0.25rem;
+    right: -0.25rem;
+  }
+  
+
+  .col-lg-2:hover{
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 1;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.col-lg-2{
+    padding: 10px;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.list-group-item.active{
+background: none;
+border-color: yellow;
+}
