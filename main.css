@@ -147,3 +147,8 @@ border-color: yellow;
 background-image: url("images/baby.png")!important;
 background-color: #222;
 }
+
+.bg-darker {
+    background-image: url("Images/baby.png");
+    background-color: none !important;
+}
